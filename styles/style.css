@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(249, 226, 199, 0.4);
+    overflow-x: hidden;
+}
+
+.header-text{
+    text-align: right;
+    width: 525px;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.header-img{
+    max-width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.main-header{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    margin-bottom: 24px;
+}
+
+.sub-header{
+    color: #525252;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.primary-btn{
+    background-color: #F15B22;
+    color: #fff;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* summed up header design here */
+
+.fail-text-head{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 280px;
+    margin-bottom: 24px;
+}
+
+.fail-text-info{
+    color: #525252;
+    line-height: 26px;
+    width: 430px;
+    margin-bottom: 16px;
+}
+
+.fail-text> ul > li{
+    color: #525252;
+    line-height: 26px;
+    list-style-image: url(../images/icons/check.png);
+    /* custom list style was added here */
+}
+
+ul{
+    padding-left: 30px;
+}
+
+.failure{
+    display: flex;
+    margin: 130px 12%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fail-text{
+    margin-top: 50px;
+}
+
+/* failure section with a women photo in it is quite done styling */
+
+.subject{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.sub-info{
+    font-size: 25px;
+    font-weight: 500;
+    color: #525252;
+    text-align: center;
+}
+
+.plan{
+    display: flex;
+    margin: 130px 230px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+.plan-head{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* summed up the plan section . looks fine to me */
+
+.motivation-banner{
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    /* I could've used linear gradient here but, it's also working this way .... */
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    margin: 130px 14.5%;
+    border-radius: 8px;
+}
+
+.motivation-text{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 460px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.motivation-info{
+    padding-top: 60px;
+    padding-left: 65px;
+}
+
+.call{
+    height: 64px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    color: #F15B22;
+}
+
+/* tricky part design ended here  */
+
+.footer-bar{
+    min-height: 550px;
+    background-color: #151414;
+}
+
+.footer-section{
+    display: flex;
+    padding: 120px 240px;
+}
+
+.future{
+    width: 70%;
+}
+
+.f-head{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.f-info{
+    color: #fff;
+    line-height: 26px;
+    width: 485px;
+    margin-bottom: 24px;
+}
+
+.email{
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.phone{
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.the-text-subscribe{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#email{
+    background-color: transparent;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: 300;
+    width: 325px;
+    height: 64px;
+    margin-bottom: 16px;
+    padding: 22px auto;
+    padding-left: 22px;
+}
+
+::placeholder{
+    color: #fff;
+}
+/* I took this idea from w3schools because , placeholder color wasn't matching with the pdf */
+
+.subscribe-btn{
+    color: #F15B22;
+    padding: 20px 36px;
+    background-color: #fff;
+    width: 170px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+.social-media-logos{
+    margin-right: 25px;
+}
